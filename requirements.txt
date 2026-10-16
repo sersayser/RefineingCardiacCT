@@ -1,0 +1,28 @@
+# --- Çekirdek bilimsel yığın ---
+numpy>=1.26
+scipy>=1.11
+scikit-learn>=1.4
+scikit-image>=0.22
+opencv-python-headless>=4.9
+
+# --- Tıbbi görüntü G/Ç ---
+pydicom>=2.4
+SimpleITK>=2.3
+nibabel>=5.2
+h5py>=3.10
+rarfile>=4.1          # .rar arşivleri (sistemde unar/unrar gerektirir)
+
+# --- Derin öğrenme ve kalite metrikleri ---
+torch>=2.2
+pyiqa>=0.1.10         # NIQE / NRQM / PI referanssız kalite metrikleri
+
+# --- Veritabanı ve API ---
+SQLAlchemy>=2.0
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+websockets>=12.0
+
+# --- Test ---
+pytest>=8.0
+httpx>=0.27           # FastAPI TestClient için

@@ -1,0 +1,29 @@
+# Ortamlar ve bağımlılıklar
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Kalıcı öğrenme veritabanı (CLAUDE.md: git'e girmez)
+database/*.sqlite
+
+# Harici referans repolar (kendi .git'leri var, salt okunur klonlar)
+third_party/
+
+# Hasta/klinik veri ve kullanıcı yüklemeleri — asla repoya girmez
+uploads/
+Nilufer/
+disa_aktarimlar/
+demo_data/
+checkpoints/
+*.dcm
+*.nii
+*.nii.gz
+*.hdf5
+*.png
+
+# Derleme çıktıları ve yerel dosyalar
+frontend/dist/
+.DS_Store
+.claude/settings.local.json
